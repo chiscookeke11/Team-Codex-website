@@ -67,7 +67,7 @@ const Navbar = () => {
 
 
     return (
-        <nav ref={navRef} className='fixed z-[9999] w-[95%] max-w-[1320px] min-h-[60px] h-auto md:max-h-[90px] bg-white rounded-[9px] py-5 flex items-center justify-center top-[5%] left-[50%] transform translate-x-[-50%] ' >
+        <nav ref={navRef} className='fixed z-[9999] py-4 md:py-2 w-[95%] max-w-[1320px] min-h-[60px] h-auto md:max-h-[90px] bg-white rounded-[9px]  flex items-center justify-center top-[5%] left-[50%] transform translate-x-[-50%] ' >
 
 
 
@@ -77,9 +77,9 @@ const Navbar = () => {
 
 
 
-            <ul className={`my-7 md:flex md:flex-row flex-col items-center justify-center gap-5 md:gap-10  ${showNavLinks ? "flex" : "hidden"}  `} >
+            <ul className={` md:flex md:flex-row flex-col items-center justify-center gap-5 md:gap-10  ${showNavLinks ? "flex" : "hidden"}  `} >
                 {navLinks.map((navLink, index) => (
-                    <li onClick={closeMenu} key={index} className='px-2 py-5 text-[#3F3F3F]  font-normal text-base lg:text-[15px] cursor-pointer hover:text-[#60CE70] transition duration-300 ease-in-out  ' > {navLink.name} </li>
+                    <li onClick={closeMenu} key={index} className=' text-[#3F3F3F]  font-normal text-base lg:text-[15px] cursor-pointer hover:text-[#60CE70] transition duration-300 ease-in-out  ' > {navLink.name} </li>
                 ))}
             </ul>
 
