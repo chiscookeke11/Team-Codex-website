@@ -2,7 +2,7 @@ import React from 'react'
 import grayBg from '../assets/gray-bg.svg'
 import curlyShape from '../assets/curlt.svg'
 import curlyPointer from '../assets/curlyPointer.svg'
-import CustomStarIcon from './customStarIcon'
+import CustomStarIcon from './CustomStarIcon'
 
 const WhatWeDo = () => {
   
