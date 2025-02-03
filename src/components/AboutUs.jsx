@@ -28,7 +28,7 @@ const AboutUs = () => {
 
        <div className='basis-1/2 max-w-[650px] min-w-[320px] px-3 h-auto flex flex-col justify-end items-start text-left z-10 relative  ' >
         <h1 className='text-[#24A556] font-semibold text-3xl lg:text-[58px] mb-3  ' >About US</h1>
-        <p className='text-[#3F3F3F] font-medium text-xl  max-w-[330px] md:max-w-[559px] ' >At CodeX-Lab, we transform bold ideas 
+        <p className='text-[#3F3F3F] font-medium text-xl  px-1 md:max-w-[559px] ' >At CodeX-Lab, we transform bold ideas 
             into impactful solutions through cutting-edge
              technology. From empowering artists and revolutionizing
               cross-border transactions to reimagining gamified experiences,
