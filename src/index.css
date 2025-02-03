@@ -35,3 +35,10 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+.footer {
+  background-image: url("./assets/footer-bg.svg");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: top;
+  font-family: 'Orbitron', sans-serif;
+}
