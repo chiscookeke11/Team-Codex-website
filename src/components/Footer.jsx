@@ -8,7 +8,7 @@ import blur2 from "../assets/blur2.svg"
 
 const Footer = () => {
   return (
-    <div className='footer w-full bg-[#24A556] text-[#FFFFFF] relative px-5 py-5 min-h-[70vh] flex items-center lg:items-end justify-center overflow-hidden ' >
+    <div className='footer w-full bg-[#24A556] text-[#FFFFFF] relative px-5 py-5 min-h-[60vh] flex items-center lg:items-end justify-center overflow-hidden ' >
   
 
         
